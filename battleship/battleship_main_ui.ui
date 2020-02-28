@@ -1,0 +1,7622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>625</width>
+    <height>395</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>625</width>
+    <height>395</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>50</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>75</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>125</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>100</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>225</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>175</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>200</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>150</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>250</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>275</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>125</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>275</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>75</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>200</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>150</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>250</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>175</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>225</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>175</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>225</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>125</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>100</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>50</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>150</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>275</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>250</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>75</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>200</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_48">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_52">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_53">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_58">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_61">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_62">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_63">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_64">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_65">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_66">
+    <property name="geometry">
+     <rect>
+      <x>375</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_67">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_68">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_69">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_70">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>300</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="ownButtonFrame">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>39</y>
+      <width>271</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="ownI4">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD4">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB8">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA10">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA7">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH5">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH1">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA4">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH7">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE7">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC1">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF3">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ3">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI10">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB9">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ2">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG6">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH2">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE1">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB1">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI7">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF6">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE9">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF5">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA1">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA8">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF10">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH8">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC5">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH6">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC9">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC10">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG2">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA6">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI8">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF9">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF1">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI9">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE5">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ4">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG4">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD6">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG5">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI2">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH3">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE10">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC4">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH9">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB2">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI3">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD1">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE2">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC7">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC8">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA3">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ8">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD5">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB4">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ10">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF2">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG8">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH4">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG7">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE6">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ6">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC6">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB10">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE4">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD3">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI1">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ1">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG1">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA9">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD8">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF7">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownE8">
+     <property name="geometry">
+      <rect>
+       <x>111</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG9">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI5">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownI6">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF4">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB7">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ9">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG10">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownH10">
+     <property name="geometry">
+      <rect>
+       <x>186</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA2">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB6">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB3">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ7">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD10">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownG3">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC3">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownB5">
+     <property name="geometry">
+      <rect>
+       <x>36</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownA5">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD7">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownC2">
+     <property name="geometry">
+      <rect>
+       <x>61</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownF8">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD9">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownD2">
+     <property name="geometry">
+      <rect>
+       <x>86</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ownJ5">
+     <property name="geometry">
+      <rect>
+       <x>236</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="hasShip" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipSize" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="unselectable" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="shipTiles" stdset="0">
+      <stringlist/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="enemyButtonFrame">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>39</y>
+      <width>261</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="enemyE6">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH7">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH3">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE2">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE4">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ3">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE3">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA1">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD6">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI1">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI2">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ4">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA6">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA5">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH6">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA10">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI8">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD5">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH10">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB9">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI4">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI7">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA8">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ9">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB5">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG10">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB10">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI5">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC7">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ8">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA9">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF1">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG3">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG7">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE10">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD10">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI3">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH2">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB1">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH4">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA2">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG1">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG8">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE8">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF5">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD7">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC8">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC1">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF7">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD2">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB7">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA7">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD3">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF6">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD1">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ1">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB6">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG4">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC5">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB3">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ10">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF3">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC4">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE7">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH5">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF10">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH9">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA3">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF9">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH8">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC9">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG2">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC2">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE5">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD4">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF2">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB4">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB8">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ7">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>161</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC6">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ2">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG9">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD8">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG6">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyD9">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE9">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI6">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI10">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ6">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>136</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyA4">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyI9">
+     <property name="geometry">
+      <rect>
+       <x>206</x>
+       <y>211</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC10">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>236</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyG5">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyJ5">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>111</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyC3">
+     <property name="geometry">
+      <rect>
+       <x>56</x>
+       <y>61</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyB2">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>36</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyE1">
+     <property name="geometry">
+      <rect>
+       <x>106</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF4">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>86</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyH1">
+     <property name="geometry">
+      <rect>
+       <x>181</x>
+       <y>11</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enemyF8">
+     <property name="geometry">
+      <rect>
+       <x>131</x>
+       <y>186</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="beginGameButton">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>330</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Begin Game!</string>
+    </property>
+   </widget>
+   <zorder>ownButtonFrame</zorder>
+   <zorder>enemyButtonFrame</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_18</zorder>
+   <zorder>label_19</zorder>
+   <zorder>label_20</zorder>
+   <zorder>label_21</zorder>
+   <zorder>label_22</zorder>
+   <zorder>label_23</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_25</zorder>
+   <zorder>label_26</zorder>
+   <zorder>label_27</zorder>
+   <zorder>label_28</zorder>
+   <zorder>label_29</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_31</zorder>
+   <zorder>label_32</zorder>
+   <zorder>label_33</zorder>
+   <zorder>label_34</zorder>
+   <zorder>label_35</zorder>
+   <zorder>label_36</zorder>
+   <zorder>label_37</zorder>
+   <zorder>label_38</zorder>
+   <zorder>label_39</zorder>
+   <zorder>label_40</zorder>
+   <zorder>label_41</zorder>
+   <zorder>label_42</zorder>
+   <zorder>label_43</zorder>
+   <zorder>label_44</zorder>
+   <zorder>label_45</zorder>
+   <zorder>label_46</zorder>
+   <zorder>label_47</zorder>
+   <zorder>label_48</zorder>
+   <zorder>label_49</zorder>
+   <zorder>label_50</zorder>
+   <zorder>label_51</zorder>
+   <zorder>label_52</zorder>
+   <zorder>label_53</zorder>
+   <zorder>label_54</zorder>
+   <zorder>label_55</zorder>
+   <zorder>label_56</zorder>
+   <zorder>label_57</zorder>
+   <zorder>label_58</zorder>
+   <zorder>label_59</zorder>
+   <zorder>label_60</zorder>
+   <zorder>label_61</zorder>
+   <zorder>label_62</zorder>
+   <zorder>label_63</zorder>
+   <zorder>label_64</zorder>
+   <zorder>label_65</zorder>
+   <zorder>label_66</zorder>
+   <zorder>label_67</zorder>
+   <zorder>label_68</zorder>
+   <zorder>label_69</zorder>
+   <zorder>label_70</zorder>
+   <zorder>beginGameButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>625</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Game Options</string>
+    </property>
+    <addaction name="actionNew_Game"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionGame_Rules"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+  </widget>
+  <action name="actionNew_Game">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+  </action>
+  <action name="actionGame_Rules">
+   <property name="text">
+    <string>Game Rules</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
