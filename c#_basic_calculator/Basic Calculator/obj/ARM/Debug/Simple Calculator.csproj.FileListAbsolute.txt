@@ -1,0 +1,44 @@
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\App.xbf
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\MainPage.xbf
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Simple Calculator.xr.xml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Simple Calculator.exe
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Simple Calculator.pdb
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\resources.pri
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\AppxManifest.xml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Core\AppxManifest.xml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Core\Simple Calculator.exe
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Simple Calculator.build.appxrecipe
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\System.Runtime.dll
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\bin\ARM\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\Simple Calculator.csprojAssemblyReference.cache
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\App.g.i.cs
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\App.g.cs
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\MainPage.g.cs
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\XamlTypeInfo.g.cs
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\App.xaml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\MainPage.xaml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\App.xbf
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\MainPage.xbf
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\XamlSaveStateFile.xml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\Simple Calculator.csproj.CopyComplete
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\Simple Calculator.exe
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\Simple Calculator.pdb
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\ResourceHandlingTask.state
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\priconfig.xml
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\unfiltered.layout.resfiles
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\filtered.layout.resfiles
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\excluded.layout.resfiles
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\resources.resfiles
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\pri.resfiles
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\qualifiers.txt
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

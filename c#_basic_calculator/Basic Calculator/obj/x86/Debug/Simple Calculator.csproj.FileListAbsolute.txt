@@ -1,0 +1,44 @@
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\App.xbf
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\MainPage.xbf
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Simple Calculator.xr.xml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Simple Calculator.exe
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Simple Calculator.pdb
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\resources.pri
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\AppxManifest.xml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Core\Simple Calculator.exe
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Simple Calculator.build.appxrecipe
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\System.Runtime.dll
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.csprojAssemblyReference.cache
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\App.g.i.cs
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\App.g.cs
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\MainPage.g.cs
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\App.xaml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\MainPage.xaml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\App.xbf
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\MainPage.xbf
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.csproj.CopyComplete
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.exe
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.pdb
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\priconfig.xml
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\resources.resfiles
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\pri.resfiles
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\qualifiers.txt
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

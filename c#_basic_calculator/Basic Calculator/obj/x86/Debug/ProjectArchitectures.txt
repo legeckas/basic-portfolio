@@ -1,0 +1,1 @@
+C:\Users\MIND\Documents\C# Projects\Simple Calculator\Simple Calculator\Simple Calculator.csproj;x86

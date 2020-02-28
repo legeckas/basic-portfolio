@@ -1,0 +1,1 @@
+C:\Users\MIND\Documents\SofDev Projects\C# Projects\Basic Calculator\Simple Calculator\Basic Calculator.csproj;arm
