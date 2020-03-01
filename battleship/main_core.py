@@ -533,11 +533,7 @@ class BattleshipsMain:
 
         game_over_message.setIcon(QMessageBox.Critical)
         game_over_message.setStandardButtons(QMessageBox.Ok)
-        game_over_message.buttonClicked.connect(self.switch_to_lobby)
-
-    def switch_to_lobby(self):
-        return
-
-
+        game_over_message.buttonClicked.connect(self.lobby)
+        
 if __name__ == "__main__":
     BattleshipsMain()
