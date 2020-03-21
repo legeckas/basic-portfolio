@@ -1,0 +1,123 @@
+﻿<Window x:Class="RecipeBookUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecipeBookUI"
+        mc:Ignorable="d"
+        Title="Recipe Book - Main Window" Height="750" Width="550">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        
+        <!--Title Text Block-->
+        <TextBlock Text="Recipe Book" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Foreground="#FF079992" FontSize="24"/>
+
+        <!--Search Section-->
+        <StackPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--Search By Name-->
+                <CheckBox x:Name="searchByNameCheckBox" Content="Search by name" Grid.Column="0" Grid.Row="0" Margin="15,20,0,0" VerticalAlignment="Center" Checked="searchByNameCheckBox_Checked" Unchecked="searchByNameCheckBox_Checked"/>
+                <ComboBox x:Name="searchByNameComboBox" Grid.Column="0" Grid.Row="1" Margin="10,10,0,0" MinWidth="150" MaxHeight="20" VerticalAlignment="Center" IsEnabled="False"/>
+
+                <!--Seach By Preparation Time-->
+                <CheckBox x:Name="searchByTimeCheckBox" Content="Search by preparation time (in minutes)" Grid.Column="0" Grid.Row="2" Margin="15,10,0,0" Checked="searchByTimeCheckBox_Checked" Unchecked="searchByTimeCheckBox_Checked"/>
+                <DockPanel Grid.Column="0" Grid.Row="3" Margin="10,5,0,0">
+                    <TextBox x:Name="preparationTimeTextBox" Text="{Binding ElementName=preparationTimeSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" Height="20" IsEnabled="False"/>
+                    <Slider x:Name="preparationTimeSlider" TickFrequency="5" IsSnapToTickEnabled="True" TickPlacement="BottomRight" Maximum="20" IsEnabled="False" />
+                </DockPanel>
+
+                <!--Main Buttons-->
+                <Button x:Name="addNewRecipeButton" Content="Add New" Grid.Column="0" Grid.Row="4" Margin="10,5,0,5" Click="addNewRecipeButton_Click"/>
+                <Button x:Name="searchRecipeButton" Content="Search" Grid.Column="0" Grid.Row="5" Margin="10,0,0,0" Height="24" VerticalAlignment="Top" Click="searchRecipeButton_Click"/>
+
+                <!--Search By Ingredients-->
+                <CheckBox x:Name="searchByIngredientsCheckBox" Content="Search by ingredients" Grid.Column="1" Grid.Row="0" Margin="25,5,0,0" VerticalAlignment="Bottom" Checked="searchByIngredientsCheckBox_Checked" Unchecked="searchByIngredientsCheckBox_Checked"/>
+                <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" Margin="10,5,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ListBox x:Name="ingredientsAvailableListbox" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Margin="7,0,0,0"  MinWidth="100" MinHeight="150" IsEnabled="False"/>
+                        <Button x:Name="removeIngredientButton" Content="❮"  Grid.Column="1" Grid.Row="1" Margin="5,40,5,0" MinWidth="20" IsEnabled="False" Click="removeIngredientButton_Click"/>
+                        <Button x:Name="addIngredientButton" Content="❯"  Grid.Column="1" Grid.Row="2" Margin="5,20,5,0" MinWidth="20" IsEnabled="False" Click="addIngredientButton_Click"/>
+                        <ListBox x:Name="ingredientsSelectedListbox" Grid.Column="2" Grid.Row="0" Grid.RowSpan="4" MinWidth="100" MinHeight="150" IsEnabled="False"/>
+                    </Grid>
+                </StackPanel>
+                <Separator Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6" Margin="0,10,0,0"/>
+            </Grid>
+        </StackPanel>
+        
+        <!--List of recipes meeting criteria-->
+        <ListBox x:Name="availableRecipesListBox" Grid.Column="1" Grid.Row="3" Grid.RowSpan="2" Margin="5,10,10,0" MinWidth="230" MinHeight="200" MouseDoubleClick="availableRecipesListBox_MouseDoubleClick"/>
+        
+        <!--Buttons to interact with active recipe-->
+        <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" Margin="10,10,0,0">
+            <Button x:Name="deleteSelectedRecipe" Content="Delete" MinWidth="100" Margin="15,0,0,0" Click="deleteSelectedRecipe_Click"/>
+            <Button x:Name="editSelectedRecipe" Content="Edit" MinWidth="100" Margin="10,0,0,0" Click="editSelectedRecipe_Click"/>
+        </StackPanel>
+        
+        <!--Displaying selected recipe-->
+        <ScrollViewer Grid.Column="2" Grid.Row="4">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical" Margin="0,10,0,0">
+                    <TextBlock x:Name="selectedRecipeNameTextBlock" TextWrapping="Wrap" Foreground="#FFB71540" FontWeight="Bold" FontSize="20"/>
+                    <TextBlock x:Name="selectedRecipeTimeToPrepare" Margin="5,5,0,0"/>
+                    <Image x:Name="selectedRecipeDishImage" Grid.Column="0" Grid.Row="1" Margin="5,10,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <TextBlock x:Name="selectedRecipeIngredientsTextBlock" TextWrapping="Wrap" Margin="5,20,0,0"/>
+                    <TextBlock x:Name="selectedRecipeInstructionsTextBlock" Margin="5,10,0,0" TextWrapping="Wrap"/>
+                </StackPanel>
+                
+            </Grid>
+        </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
