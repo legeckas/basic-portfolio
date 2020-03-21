@@ -143,7 +143,7 @@ namespace RecipeBookUI
         private void addRecipeAddImageButton_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog fd = new OpenFileDialog();
-            fd.Filter = "Image files (.jpg, .png)|*.png;*.jpg";
+            fd.Filter = "Image files (.jpg, .png)|*.png;*.jpg;*.jpeg";
             fd.ShowDialog();
 
             fullPictureFileName = fd.FileName;
