@@ -202,7 +202,7 @@ class BarboraReader:
         barbora_source = urllib.request.urlopen(barbora_address).read().decode('utf-8')
         barbora_json = barbora_source.split("var products = ")[1].split(";")[0]
 
-       return json.loads(barbora_json)
+        return json.loads(barbora_json)
 
     # Method that parses data into lists
     def json_parser(self, json):
