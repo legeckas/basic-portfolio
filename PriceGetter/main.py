@@ -73,36 +73,37 @@ class Plotter:
 
     # Collects data from a csv file for a given key_word and returns it
     def pull_data(self, key_word):
-        data = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0)
-        data = data.set_index("Date")
-        del data.index.name
-        return data
+        return pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0, sep='~')
         
     # Plots the data received from 
     def plot_data(self, data):
-        # Groups data by store name
-        data_grouped = data.groupby("Store Name")
+        # Groups data by store name and by product name
+        data_grouped = data.groupby(["Name", "Store"])
 
         fig = go.Figure()
 
         # Iterates through stores and products to add traces for each product
-        for value in data['Store Name'].unique():
-            for column in data_grouped.get_group(value).dropna(axis=1).drop("Store Name", axis=1).columns:
-                fig.add_trace(go.Scatter(
-                    x=data.index,
-                    y=data[column],
-                    mode='lines',
-                    name=column,
-                    text="{column} - {store}".format(column=column, store=value))
-                )
-
+        for name in data["Name"].unique():
+            for store in data["Name"].sort_values().unique():
+                try:
+                    df = data_grouped.get_group((name, store))
+                    
+                    fig.add_trace(go.Scatter(
+                        x=df["Date"],
+                        y=df["Price"],
+                        name=name,
+                        text="{store} - {name}".format(store=store, name=name))
+                    )
+                except KeyError:
+                    continue
+    
         fig.update_layout(
             title="Price of {keyword}".format(keyword=self.key_word.lower()),
             xaxis=dict(
                 title="Date",
                 tickformat="%Y-%m-%d"
             ),
-            yaxis_title="Price",
+            yaxis_title="Price, EUR",
         )
 
         fig.show()
@@ -112,7 +113,8 @@ class Plotter:
 class DataProcessor:
     def __init__(self, key_word):
         self.key_word = key_word
-        self.current_date = strftime("%Y-%m-%d", gmtime())
+
+        self.column_names = ["Name", "Date", "Price", "Store"]
 
     # Writes data received from store getters to a csv
     def data_writer(self):
@@ -121,22 +123,19 @@ class DataProcessor:
 
         # Checks whether the file already exists and appends, if true
         try:
-            df = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0)
-            df = pd.merge(df, df_rimi, on=['Store Name', 'Date'], how='outer', sort=True)
-            df = pd.merge(df, df_barb, on=['Store Name', 'Date'], how='outer', sort=True)
+            df = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0, sep='~')
+            df.append(df_rimi)
+            df.append(df_barb)
 
         # Otherwise merges data from two stores
         except FileNotFoundError:
-            df = pd.merge(df_rimi, df_barb, on='Store Name', how='outer', sort=True)
+            df = pd.merge(df_rimi, df_barb, how='outer')
 
-        df.to_csv("lists/{key_word}.csv".format(key_word=self.key_word))
+        df.to_csv("lists/{key_word}.csv".format(key_word=self.key_word), sep='~')
 
     # Converts store getter data into a pandas dataframe
     def dataframe_creator(self, data_reader):
-        df = pd.DataFrame(data_reader.data, columns=data_reader.column_names)
-        df["Store Name"] = [data_reader.store_name]
-        df["Date"] = self.current_date
-        return df
+        return pd.DataFrame(data_reader.data, columns=self.column_names)
 
 
 # Class to scrape data from Rimi e-shop
@@ -144,8 +143,8 @@ class RimiReader:
     def __init__(self, key_word):
         self.store_name = "Rimi"
         self.key_word = key_word
+        self.current_date = strftime("%Y-%m-%d", gmtime())
 
-        self.column_names = []
         self.data = []
 
         self.json_parser(self.json_getter(self.key_word))
@@ -158,45 +157,31 @@ class RimiReader:
         rimi_source = urllib.request.urlopen(rimi_address).read().decode('raw_unicode_escape')
         rimi_json = rimi_source.split("dataLayer.push(")[2].split(");")[0]
 
-        loaded_rimi_json = json.loads(rimi_json)
+        return json.loads(rimi_json)
 
-        return loaded_rimi_json
-
-    # Method that parses data into lists
+    # Method that parses json into a data list
     def json_parser(self, json):
         products = json['ecommerce']['impressions']
 
-        product_names = []
-        product_prices = []
-
         for item in products:
             if self.key_word.lower() in item['name'].lower():
-                product_names.append(item['name'])
-                product_prices.append(item['price'])
+                temp_list = []
 
-        raw_data = list(zip(product_names, product_prices))
+                temp_list.append(item['name'])
+                temp_list.append(self.current_date)
+                temp_list.append(item['price'])
+                temp_list.append(self.store_name)
 
-        value_list = []
-
-        for item in raw_data:
-            name, price = item
-
-            value_list.append(price)
-            self.column_names.append(name)
-
-        self.data.append(value_list)
-
+                self.data.append(temp_list)
 
 # Class to scrape data from Barbora e-shop
 class BarboraReader:
     def __init__(self, key_word):
         self.store_name = "Barbora"
         self.key_word = key_word
+        self.current_date = strftime("%Y-%m-%d", gmtime())
 
-        self.initial_list = []
-
-        self.column_names = []
-        self.data = [self.initial_list]
+        self.data = []
 
         self.page_lister()
 
@@ -204,8 +189,8 @@ class BarboraReader:
     def page_lister(self):
         for i in range(1, 3):
             try:
-                self.data_maker(self.json_parser(self.data_getter(self.key_word, str(i))))
-            except IndexError:
+                self.json_parser(self.data_getter(self.key_word, str(i)))
+            except Exception:
                 continue
             sleep(10)
 
@@ -217,28 +202,21 @@ class BarboraReader:
         barbora_source = urllib.request.urlopen(barbora_address).read().decode('utf-8')
         barbora_json = barbora_source.split("var products = ")[1].split(";")[0]
 
-        loaded_barbora_json = json.loads(barbora_json)
-
-        return loaded_barbora_json
+       return json.loads(barbora_json)
 
     # Method that parses data into lists
     def json_parser(self, json):
 
-        product_names = []
-        product_prices = []
-
         for item in json:
             if self.key_word.lower() in item['title'].lower():
-                product_names.append(item['title'])
-                product_prices.append(item['price'])
+                temp_list = []
 
-        raw_data = list(zip(product_names, product_prices))
+                temp_list.append(item['title'])
+                temp_list.append(self.current_date)
+                temp_list.append(item['price'])
+                temp_list.append(self.store_name)
 
-        for item in raw_data:
-            name, price = item
-
-            self.initial_list.append(price)
-            self.column_names.append(name)
+                self.data.append(temp_list)
 
 
 if __name__ == "__main__":
