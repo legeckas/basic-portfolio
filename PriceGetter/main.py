@@ -41,7 +41,13 @@ class ApplicationManager:
     # Calls DataProcessor class to update data according to keywords
     def update_all(self):
         for keyword in self.keywords:
-            DataProcessor(keyword).data_writer()
+            try:
+                DataProcessor(keyword).data_writer()
+            except Exception as e:
+                print("Error on: " + keyword)
+                print("----------------")
+                print(e)
+                continue
 
     # Calls Plotter class to plot the data for a selected keyword
     def show_plot(self):
@@ -67,8 +73,11 @@ class Plotter:
 
     # Collects data from a csv file for a given key_word and returns it
     def pull_data(self, key_word):
-        return pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0)
-
+        data = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0)
+        data = data.set_index("Date")
+        del data.index.name
+        return data
+        
     # Plots the data received from 
     def plot_data(self, data):
         # Groups data by store name
@@ -113,19 +122,20 @@ class DataProcessor:
         # Checks whether the file already exists and appends, if true
         try:
             df = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0)
-            df = df.append([df_rimi, df_barb], sort=True)
+            df = pd.merge(df, df_rimi, on=['Store Name', 'Date'], how='outer', sort=True)
+            df = pd.merge(df, df_barb, on=['Store Name', 'Date'], how='outer', sort=True)
 
         # Otherwise merges data from two stores
         except FileNotFoundError:
             df = pd.merge(df_rimi, df_barb, on='Store Name', how='outer', sort=True)
-            df = df.set_index(pd.Index([self.current_date, self.current_date], inplace=True))
 
         df.to_csv("lists/{key_word}.csv".format(key_word=self.key_word))
 
     # Converts store getter data into a pandas dataframe
     def dataframe_creator(self, data_reader):
-        df = pd.DataFrame(data_reader.data, columns=data_reader.column_names, index=[self.current_date])
+        df = pd.DataFrame(data_reader.data, columns=data_reader.column_names)
         df["Store Name"] = [data_reader.store_name]
+        df["Date"] = self.current_date
         return df
 
 
