@@ -83,8 +83,8 @@ class Plotter:
         fig = go.Figure()
 
         # Iterates through stores and products to add traces for each product
-        for name in data["Name"].unique():
-            for store in data["Name"].sort_values().unique():
+        for name in data["Name"].sort_values().unique():
+            for store in data["Store"].unique():
                 try:
                     df = data_grouped.get_group((name, store))
                     
@@ -124,8 +124,8 @@ class DataProcessor:
         # Checks whether the file already exists and appends, if true
         try:
             df = pd.read_csv("lists/{key_word}.csv".format(key_word=self.key_word), index_col=0, sep='~')
-            df.append(df_rimi)
-            df.append(df_barb)
+            df = df.append(df_rimi)
+            df = df.append(df_barb)
 
         # Otherwise merges data from two stores
         except FileNotFoundError:
